@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   }
+   body{
+    background: rgb(163, 161, 161);
+   }
+   #steps{
+     width: 500px;
+     margin: 0 auto;
+     overflow: hidden;
+   }
+   #outer-container{
+     width: 1045px; 
+     transition: all 400ms ease-in-out;
+   }
+   #signup, #card{
+     width: 500px;
+     display: inline-block;
+     background: white;
+     margin: 10px 10px;
+     vertical-align: top;
+     transition: all 400ms ease-in-out;
+   }
+   #inner-container{
+     width: 380px;
+     margin: 30px auto;
+   }
+   #inner-container h2{
+     padding-bottom: 5px;
+     margin-bottom: 10px;
+     border-bottom: 5px solid #4183D7; 
+   }
+   #usa, #pak{
+     display: none;
+   }
+   #inner-container input, select{
+     color: #666;
+     width: 100%;
+     height: 40px;
+     text-indent: 10px;
+     border: 1px solid #ccc;
+     border-radius: 2px;
+     margin: 8px 0;
+   }
+   input[type="date"]{
+     margin: 0;
+     padding: 0;
+     text-indent: 0;
+   }
+   #inner-container input[type=submit]{
+     width: 100%;
+     color: white;
+     background: #4183D7;
+     border: 0;
+     box-shadow: inset 0 0 0 0 transparent;
+     transition: all 400ms ease-in-out;
+   }
+   #inner-container #signup-btn:hover{
+     box-shadow: inset 380px 0 0 0 #16A085;
+   }
+   #card{
+     opacity: 0;
+     text-align: center;
+     line-height: 3.1;
+   }
+   #card img{
+     width: 80px;
+     height: 80px;
+   }
+   #delete-account #delete-btn:hover{
+     box-shadow: inset 380px 0 0 0 #00fff7;
+   }
